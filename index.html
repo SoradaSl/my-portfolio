@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Николай Алифанов - сайт портфолио</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar container">
         <img src="img/logo.svg" alt="logo">
         <nav class="navigation">
             <ul class="nav-list">
@@ -22,5 +23,54 @@
             </ul>
         </nav>
     </div>
+    <!-- .navbar -->
+    <header class="header container">
+        <img src="img/avatar.png" alt="Николай Алифанов" class="header-photo">
+        <!-- /.header-photo -->
+        <div class="header-text">
+            <strong class="header-strong">Привет 👋</strong>
+            <h1 class="header-heading">
+                <span class="header-primary">Я начинающий Web-разработчик и дизайнер</span> <br>
+                Меня зовут Алифанов Николай и я учусь верстать сайты
+            </h1>
+            <div class="header-links">
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <img src="img/Icons/linkedin.svg" alt="linkedin" class="social-logo">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <img src="img/Icons/twitter.svg" alt="twitter" class="social-logo">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <img src="img/Icons/github.svg" alt="github" class="social-logo">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <img src="img/Icons/stackoverflow.svg" alt="stackoverflow" class="social-logo">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <img src="img/Icons/youtube.svg" alt="youtube" class="social-logo">
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="cv-download" download>
+                    <img src="img/Icons/download.svg" alt="download-icon" class="cv-icon">
+                    <span class="cv-text">Скачать резюме</span>
+                </a>
+            </div>
+            <!-- /.header-links -->
+        </div>
+        <!-- /.header-text -->
+    </header>
+    <!-- /.header -->
+
 </body>
 </html>
